@@ -4,6 +4,9 @@ Order at 0.8mm not 1.6!!!
 
 [Purchase on OSHPARK](https://oshpark.com/shared_projects/MLP2iJ0x)
 
+Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on OSHPARK](https://oshpark.com/shared_projects/lvzR0DHN)
+
+
 ## BOM
 
 | Reference        | Part Number           | Description  |
