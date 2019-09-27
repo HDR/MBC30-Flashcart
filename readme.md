@@ -20,7 +20,7 @@ Order at 0.8mm not 1.6!!!
 | R1 | ERJ-PA3J334V | 330K Ω Resistor |
 | R2 | ERJ-PA3J103V | 10K Ω Resistor |
 | R3 | ERJ-PA3J102V | 1K Ω Resistor |
-| MBC30 | MBC3 | Get from real cartridge |
+| MBC30 | MBC30 | Get from real cartridge |
 | U1 | BA6129AF | Buy or get from real cartridge |
 | U2 | 74LVC1G332GV,125 | 3-input OR gate TSOP-6 |
 | ROM | AM29F016 (2MB), AM29F032 (4MB) or MBM29F033C (4MB) | 2MB or 4MB Rom Chip TSOP-48 or TSOP-40 |
