@@ -2,9 +2,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 Order at 0.8mm not 1.6!!!
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/MLP2iJ0x)
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/2iiDIuan)
 
-Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on OSHPARK](https://oshpark.com/shared_projects/lvzR0DHN)
+Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on OSHPARK](https://oshpark.com/shared_projects/sAAVRVc5)
 
 
 ## BOM
@@ -35,3 +35,10 @@ Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on O
 
 
 ![Back](back.png)
+
+
+**Changelog:**
+
+**1.1:**
+
+- Rewired WE on the ROM chip to Pin 31 on the cart bus to fix an issue where it would not write to a bank.
