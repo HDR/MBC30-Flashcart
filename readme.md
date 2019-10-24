@@ -1,12 +1,12 @@
 MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and has added support for 4MB roms
 
-Order at 0.8mm not 1.6!!!
-
 **OSHPark:** 
 
 [Regular Version](https://oshpark.com/shared_projects/gYZqSNHK)
 
 [Crystal Clear Version](https://oshpark.com/shared_projects/PXoETnab)
+
+Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
 
 **JLCPCB:**
