@@ -16,10 +16,15 @@ Upload gerbers(.zip files) to [JLCPCB](http://jlcpcb.com)
 Make sure you order with the following settings:
 
 PCB Thickness: 0.8
+
 PCB Color: Any
+
 Surface Finish: ENIG-RoHS
+
 Gold Fingers: Yes (45° chamfered border)
+
 Castellated Holes: No
+
 
 ## BOM
 
