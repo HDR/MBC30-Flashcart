@@ -2,9 +2,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 Order at 0.8mm not 1.6!!!
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/2iiDIuan)
+[Regular Version](https://oshpark.com/shared_projects/gYZqSNHK)
 
-Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on OSHPARK](https://oshpark.com/shared_projects/sAAVRVc5)
+[Crystal Clear Version](https://oshpark.com/shared_projects/PXoETnab)
 
 
 ## BOM
@@ -36,9 +36,16 @@ Or you can get [Makho's](https://github.com/makhowastaken) Suicune Edition [on O
 
 ![Back](back.png)
 
+![CCBack](cc-back.png)
+
 
 **Changelog:**
 
 **1.1:**
 
 - Rewired WE on the ROM chip to Pin 31 on the cart bus to fix an issue where it would not write to a bank.
+
+**1.2:**
+
+- Changed the PCB to fit inside Japanese Pokemon Crystal shells
+- Added inverted silkscreen to the board to make it look more like the original
