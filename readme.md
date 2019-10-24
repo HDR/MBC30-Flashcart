@@ -2,16 +2,16 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 Order at 0.8mm not 1.6!!!
 
-** OSHPark: ** 
+**OSHPark:** 
 
 [Regular Version](https://oshpark.com/shared_projects/gYZqSNHK)
 
 [Crystal Clear Version](https://oshpark.com/shared_projects/PXoETnab)
 
 
-** JLCPCB: **
+**JLCPCB:**
 
-Upload gerbers to [JLCPCB](http://jlcpcb.com)
+Upload gerbers(.zip files) to [JLCPCB](http://jlcpcb.com)
 
 ## BOM
 
