@@ -70,3 +70,4 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 
 - Changed the PCB to fit inside Japanese Pokemon Crystal shells
 - Added inverted silkscreen to the board to make it look more like the original
+- Added Crystal Clear edition
