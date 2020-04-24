@@ -2,9 +2,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 **OSHPark:** 
 
-[Regular Version](https://oshpark.com/shared_projects/gYZqSNHK)
+[Regular Version](https://oshpark.com/shared_projects/AraXys5P)
 
-[Crystal Clear Version](https://oshpark.com/shared_projects/PXoETnab)
+[Crystal Clear Version](https://oshpark.com/shared_projects/R5UVpTIm)
 
 Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
@@ -71,3 +71,9 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 - Changed the PCB to fit inside Japanese Pokemon Crystal shells
 - Added inverted silkscreen to the board to make it look more like the original
 - Added Crystal Clear edition
+
+**1.3:**
+
+- The pinout for the MBC30 listed online is wrong, thanks to [Alex](https://github.com/insidegadgets) over at [InsideGadgets](https://shop.insidegadgets.com/) for providing a fixed MBC30 pinout.
+
+- Removed the front silk screens as most manufacturers struggle to make it look good.
