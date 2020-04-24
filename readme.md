@@ -76,4 +76,4 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 
 - The pinout for the MBC30 listed online is wrong, thanks to [Alex](https://github.com/insidegadgets) over at [InsideGadgets](https://shop.insidegadgets.com/) for providing a fixed MBC30 pinout.
 
-- Removed the front silk screens as most manufacturers struggle to make it look good.
+- Removed the front silk screens as most manufacturers struggle to make it.
