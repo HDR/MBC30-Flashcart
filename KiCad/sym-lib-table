@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name mbm29f033c)(type Legacy)(uri ${KIPRJMOD}/libs/mbm29f033c.lib)(options "")(descr ""))
+  (lib (name mbc30)(type Legacy)(uri ${KIPRJMOD}/libs/mbc30.lib)(options "")(descr ""))
+  (lib (name fm18w08)(type Legacy)(uri ${KIPRJMOD}/libs/fm18w08.lib)(options "")(descr ""))
+  (lib (name cartbus)(type Legacy)(uri ${KIPRJMOD}/libs/cartbus.lib)(options "")(descr ""))
+  (lib (name ba6129af)(type Legacy)(uri ${KIPRJMOD}/libs/ba6129af.lib)(options "")(descr ""))
+  (lib (name 74lvc1g332gw,125)(type Legacy)(uri ${KIPRJMOD}/libs/74lvc1g332gw,125.lib)(options "")(descr ""))
+)

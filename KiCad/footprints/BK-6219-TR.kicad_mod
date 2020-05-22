@@ -1,0 +1,11 @@
+(module Custom:BK-6219-TR (layer F.Cu) (tedit 5CDF1AC9)
+  (fp_text reference B1 (at 0 -7.40982) (layer F.Mask) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Battery_Cell (at 0.17272 -12.49934) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 10.985 0) (size 2.79 5.08) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -10.985 0) (size 2.79 5.08) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd circle (at 0 0) (size 12.7 12.7) (layers F.Cu F.Paste F.Mask))
+)
