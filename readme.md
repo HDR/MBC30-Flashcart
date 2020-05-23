@@ -31,13 +31,8 @@ Castellated Holes: No
 | Reference        | Part Number           | Description  |
 | ------------- |:-------------:| -----:|
 | B1 | BK-6219-TR | CR2025 Coin Cell Retainer |
-| C1 | 06033C104KAT4A | 0.1uF Capacitor |
-| C2 | 06033C104KAT4A | 0.1uF Capacitor |
-| C3 | 06033C104KAT4A | 0.1uF Capacitor |
-| C4 | CL10C150JB8NNNC | 15pF Capacitor |
-| C5 | CL10C150JB8NNNC | 15pF Capacitor |
-| C6 | 06033C104KAT4A | 0.1uF Capacitor |
-| C7 | 06033C104KAT4A | 0.1uF Capacitor |
+| C1, C2, C3, C6, C7 | 06033C104KAT4A | 0.1uF Capacitor |
+| C4, C5 | CL10C150JB8NNNC | 15pF Capacitor |
 | RAM | FM18W08 | 256kbit FRAM |
 | R1 | ERJ-PA3J334V | 330K Ω Resistor |
 | R2 | ERJ-PA3J103V | 10K Ω Resistor |
