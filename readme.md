@@ -76,3 +76,17 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 **1.3.1:**
 
 - Moved C2 to make it easier to close the shell
+
+
+## Video's
+
+
+**Makho Building Revision 1.3.1**
+
+[![text](https://img.youtube.com/vi/wJTDsA5XWiE/0.jpg)](https://www.youtube.com/watch?v=wJTDsA5XWiE)
+
+
+**Mizuho Building Revision 1.3**
+
+
+[![text](https://img.youtube.com/vi/K9wjhrHsPq8/0.jpg)](https://www.youtube.com/watch?v=K9wjhrHsPq8)
