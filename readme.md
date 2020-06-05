@@ -78,7 +78,7 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 - Moved C2 to make it easier to close the shell
 
 
-## Video's
+## Videos
 
 
 **Makho Building Revision 1.3.1**
