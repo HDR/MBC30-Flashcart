@@ -102,4 +102,4 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 **Mizuho Building Revision 1.3**
 
 
-[![text](https://img.youtube.com/vi/K9wjhrHsPq8/0.jpg)](https://www.youtube.com/watch?v=K9wjhrHsPq8)
+[![text](https://img.youtube.com/vi/DfoEXSLMXps/0.jpg)](https://www.youtube.com/watch?v=DfoEXSLMXps)
