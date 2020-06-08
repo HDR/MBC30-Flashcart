@@ -26,6 +26,12 @@ Gold Fingers: Yes (45° chamfered border)
 Castellated Holes: No
 
 
+**PCBWay:**
+
+[Regular Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Suicune_Edition.html)
+
+[Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition.html)
+
 ## BOM
 
 | Reference        | Part Number           | Description  |
