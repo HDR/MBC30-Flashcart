@@ -2,9 +2,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 **OSHPark:** 
 
-[Regular Version](https://oshpark.com/projects/eZvd0kCq)
+[Regular Version](https://oshpark.com/shared_projects/GsgrxKQN)
 
-[Crystal Clear Version](https://oshpark.com/shared_projects/8hbLymja)
+[Crystal Clear Version](https://oshpark.com/shared_projects/X5o7yAGj)
 
 Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
@@ -41,7 +41,7 @@ Castellated Holes: No
 | U1 | BA6129AF | Buy or get from real cartridge |
 | U2 | 74LVC1G332GV,125 | 3-input OR gate TSOP-6 |
 | ROM | AM29F016 (2MB), AM29F032 (4MB) or MBM29F033C (4MB) | 2MB or 4MB Rom Chip TSOP-48 or TSOP-40 |
-| Y1 | R26-32.768-12.5-10PPM | R26 12.5pF 32.768 kHz Crystal |
+| X1 | R26-32.768-12.5-10PPM | R26 12.5pF 32.768 kHz Crystal |
 
 Note: Capacitors and Resistor part numbers are suggestions, you can use other components with matching specs
 
@@ -77,6 +77,19 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 
 - Moved C2 to make it easier to close the shell
 
+**1.4:**
+
+- Switched cart bus footprint to [djedditt's replica of an original one](https://github.com/djedditt/kicad-gamepaks)
+
+- Replaced the flash chip footprint with a TSOP-40 footprint.
+
+- Redid the ground plane by hand, it should now look much better.
+
+- Moved the battery receptacle footprint 0.5mm to the left.
+
+- Renamed Y1 to X1
+
+- Removed JLCJLCJLC marking for OSHPark project.
 
 ## Videos
 

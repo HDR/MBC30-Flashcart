@@ -4,731 +4,801 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MBC30 FRAM 4MB Flashcart"
+Date "2020-06-06"
+Rev "1.4"
+Comp "https://Github.com/HDR/"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Gameboy:BA6129AF U2
-U 1 1 5BCB659F
-P 975 4725
-F 0 "U2" H 1025 4925 50  0000 R CNN
-F 1 "BA6129AF" H 1150 4400 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 975 4725 50  0001 C CNN
-F 3 "" H 975 4725 50  0001 C CNN
-	1    975  4725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Gameboy:FM18W08 M1
+L Gameboy:FM18W08 U5
 U 1 1 5BCB6AB8
-P 3050 4575
-F 0 "M1" H 3050 4725 50  0000 C CNN
-F 1 "FM18W08" H 3050 3625 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2350 4675 50  0001 C CNN
-F 3 "" H 2350 4675 50  0001 C CNN
-	1    3050 4575
+P 2775 4350
+F 0 "U5" H 2775 5550 50  0000 C CNN
+F 1 "FM18W08" H 2775 3400 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2075 4450 50  0001 C CNN
+F 3 "" H 2075 4450 50  0001 C CNN
+	1    2775 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
+L Device:Crystal X1
 U 1 1 5BD88FC9
-P 1050 2700
-F 0 "Y1" H 1050 2876 50  0000 C CNN
-F 1 "Crystal" H 1050 2877 50  0001 C CNN
-F 2 "Custom:Resonator_SMD_muRata_CDSCB-2pin_4.5x2.0mm_HandSoldering" H 1050 2700 50  0001 C CNN
-F 3 "~" H 1050 2700 50  0001 C CNN
-	1    1050 2700
+P 1075 2675
+F 0 "X1" H 1075 2851 50  0000 C CNN
+F 1 "Crystal" H 1075 2852 50  0001 C CNN
+F 2 "Custom:Resonator_SMD_muRata_CDSCB-2pin_4.5x2.0mm_HandSoldering" H 1075 2675 50  0001 C CNN
+F 3 "~" H 1075 2675 50  0001 C CNN
+	1    1075 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5BD89478
-P 875 3150
-F 0 "C5" V 675 3150 50  0000 C CNN
-F 1 "15 pF" V 750 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 913 3000 50  0001 C CNN
-F 3 "~" H 875 3150 50  0001 C CNN
-	1    875  3150
+P 900 3125
+F 0 "C5" V 700 3125 50  0000 C CNN
+F 1 "15 pF" V 775 3125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 2975 50  0001 C CNN
+F 3 "~" H 900 3125 50  0001 C CNN
+	1    900  3125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5BD894FF
-P 1500 3150
-F 0 "C4" V 1300 3150 50  0000 C CNN
-F 1 "15 pF" V 1375 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 3000 50  0001 C CNN
-F 3 "~" H 1500 3150 50  0001 C CNN
-	1    1500 3150
+P 1525 3125
+F 0 "C4" V 1325 3125 50  0000 C CNN
+F 1 "15 pF" V 1400 3125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1563 2975 50  0001 C CNN
+F 3 "~" H 1525 3125 50  0001 C CNN
+	1    1525 3125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5BD9147D
-P 875 3575
-F 0 "R1" V 668 3575 50  0000 C CNN
-F 1 "300Kohm" V 759 3575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 805 3575 50  0001 C CNN
-F 3 "~" H 875 3575 50  0001 C CNN
-	1    875  3575
+P 900 3550
+F 0 "R1" V 800 3550 50  0000 C CNN
+F 1 "330K" V 900 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 830 3550 50  0001 C CNN
+F 3 "~" H 900 3550 50  0001 C CNN
+	1    900  3550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5BD915CE
-P 1175 3275
-F 0 "#PWR0102" H 1175 3025 50  0001 C CNN
-F 1 "GND" H 1180 3102 50  0000 C CNN
-F 2 "" H 1175 3275 50  0001 C CNN
-F 3 "" H 1175 3275 50  0001 C CNN
-	1    1175 3275
+P 1200 3250
+F 0 "#PWR0102" H 1200 3000 50  0001 C CNN
+F 1 "GND" H 1205 3077 50  0000 C CNN
+F 2 "" H 1200 3250 50  0001 C CNN
+F 3 "" H 1200 3250 50  0001 C CNN
+	1    1200 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 3150 1650 3150
+	1825 3125 1675 3125
 Wire Wire Line
-	1200 2700 1800 2700
+	1225 2675 1825 2675
 Wire Wire Line
-	725  3150 625  3150
+	750  3125 650  3125
 Wire Wire Line
-	625  2700 900  2700
+	650  2675 925  2675
 Wire Wire Line
-	625  3150 625  3575
+	650  3125 650  3550
 Wire Wire Line
-	625  3575 725  3575
-Connection ~ 625  3150
+	650  3550 750  3550
+Connection ~ 650  3125
 Wire Wire Line
-	1175 3150 1025 3150
+	1200 3125 1050 3125
 Wire Wire Line
-	1175 3150 1350 3150
-Connection ~ 1175 3150
+	1200 3125 1375 3125
+Connection ~ 1200 3125
 Wire Wire Line
-	1175 3275 1175 3150
+	1200 3250 1200 3125
 $Comp
 L Device:C C3
 U 1 1 5BDEEBDD
-P 1625 1275
-F 0 "C3" V 1425 1275 50  0000 C CNN
-F 1 "0.1 uF" V 1500 1275 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1663 1125 50  0001 C CNN
-F 3 "~" H 1625 1275 50  0001 C CNN
-	1    1625 1275
+P 1900 1325
+F 0 "C3" V 1700 1325 50  0000 C CNN
+F 1 "0.1 uF" V 1775 1325 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 1175 50  0001 C CNN
+F 3 "~" H 1900 1325 50  0001 C CNN
+	1    1900 1325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5BE399F7
-P 4650 2250
-F 0 "C2" V 4450 2250 50  0000 C CNN
-F 1 "0.1 uF" V 4525 2250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 2100 50  0001 C CNN
-F 3 "~" H 4650 2250 50  0001 C CNN
-	1    4650 2250
-	0    1    1    0   
+P 6500 1850
+F 0 "C2" V 6300 1850 50  0000 C CNN
+F 1 "0.1 uF" V 6375 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 1700 50  0001 C CNN
+F 3 "~" H 6500 1850 50  0001 C CNN
+	1    6500 1850
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5BE555BE
-P 4525 900
-F 0 "C1" V 4325 900 50  0000 C CNN
-F 1 "0.1 uF" V 4400 900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4563 750 50  0001 C CNN
-F 3 "~" H 4525 900 50  0001 C CNN
-	1    4525 900 
-	0    1    1    0   
+P 4400 1825
+F 0 "C1" V 4200 1825 50  0000 C CNN
+F 1 "0.1 uF" V 4275 1825 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1675 50  0001 C CNN
+F 3 "~" H 4400 1825 50  0001 C CNN
+	1    4400 1825
+	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 5BE8189D
-P 4625 2875
-F 0 "R2" V 4475 2875 50  0000 C CNN
-F 1 "10 Kohm" V 4550 2875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 2875 50  0001 C CNN
-F 3 "~" H 4625 2875 50  0001 C CNN
-	1    4625 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5BE91543
-P 4625 3150
-F 0 "C7" V 4425 3150 50  0000 C CNN
-F 1 "0.1 uF" V 4500 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4663 3000 50  0001 C CNN
-F 3 "~" H 4625 3150 50  0001 C CNN
-	1    4625 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4375 2875 4375 3150
-Wire Wire Line
-	4375 3150 4475 3150
-Wire Wire Line
-	4375 2875 4475 2875
 $Comp
 L power:GND #PWR0104
 U 1 1 5BEA133D
-P 6700 2050
-F 0 "#PWR0104" H 6700 1800 50  0001 C CNN
-F 1 "GND" H 6705 1877 50  0000 C CNN
-F 2 "" H 6700 2050 50  0001 C CNN
-F 3 "" H 6700 2050 50  0001 C CNN
-	1    6700 2050
+P 6125 1875
+F 0 "#PWR0104" H 6125 1625 50  0001 C CNN
+F 1 "GND" H 6130 1702 50  0000 C CNN
+F 2 "" H 6125 1875 50  0001 C CNN
+F 3 "" H 6125 1875 50  0001 C CNN
+	1    6125 1875
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:Battery_Cell B1
-U 1 1 5BF06F96
-P 1625 4850
-F 0 "B1" V 1775 4900 50  0000 C CNN
-F 1 "Battery_Cell" V 1461 4900 50  0001 C CNN
-F 2 "Custom:BK-6219-TR" V 1625 4910 50  0001 C CNN
-F 3 "~" V 1625 4910 50  0001 C CNN
-	1    1625 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5BF29C9C
-P 1550 4375
-F 0 "#PWR0106" H 1550 4125 50  0001 C CNN
-F 1 "GND" H 1555 4202 50  0000 C CNN
-F 2 "" H 1550 4375 50  0001 C CNN
-F 3 "" H 1550 4375 50  0001 C CNN
-	1    1550 4375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	875  5125 875  5225
-Wire Wire Line
-	875  5225 1250 5225
-Wire Wire Line
-	1250 5225 1250 4375
-Wire Wire Line
-	1250 4375 1550 4375
-Wire Wire Line
-	1725 4375 1550 4375
-Wire Wire Line
-	1725 4375 1725 4850
-Connection ~ 1550 4375
-$Comp
-L Device:R R3
-U 1 1 5BF73377
-P 1425 5150
-F 0 "R3" V 1500 5150 50  0000 C CNN
-F 1 "1K" V 1425 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1355 5150 50  0001 C CNN
-F 3 "~" H 1425 5150 50  0001 C CNN
-	1    1425 5150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1425 4850 1425 5025
-Wire Wire Line
-	1425 5025 1575 5025
-Wire Wire Line
-	1575 5025 1575 5150
-Wire Wire Line
-	1275 5150 1175 5150
-Wire Wire Line
-	1175 5150 1175 5125
-NoConn ~ 5400 2000
-NoConn ~ 6700 3000
-NoConn ~ 6700 3100
-NoConn ~ 5400 3000
-NoConn ~ 5400 3100
-NoConn ~ 5400 800 
-NoConn ~ 5400 900 
-NoConn ~ 6700 800 
-NoConn ~ 6700 900 
-NoConn ~ 6700 1400
-NoConn ~ 1175 4325
+NoConn ~ 4825 1825
+NoConn ~ 6125 1225
 $Comp
 L power:GND #PWR0105
 U 1 1 5D34C2A3
-P 2650 5425
-F 0 "#PWR0105" H 2650 5175 50  0001 C CNN
-F 1 "GND" V 2650 5200 50  0000 C CNN
-F 2 "" H 2650 5425 50  0001 C CNN
-F 3 "" H 2650 5425 50  0001 C CNN
-	1    2650 5425
+P 2375 5200
+F 0 "#PWR0105" H 2375 4950 50  0001 C CNN
+F 1 "GND" V 2375 5000 50  0000 C CNN
+F 2 "" H 2375 5200 50  0001 C CNN
+F 3 "" H 2375 5200 50  0001 C CNN
+	1    2375 5200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	625  2700 625  3150
+	650  2675 650  3125
 Wire Wire Line
-	1800 2700 1800 3150
-Text GLabel 2475 5950 1    50   Input ~ 0
+	1825 2675 1825 3125
+Text GLabel 4825 1525 0    50   Input ~ 0
 A12
-Text GLabel 5400 1700 0    50   Input ~ 0
-A12
-Text GLabel 1975 5950 1    50   Input ~ 0
+Text GLabel 4825 2425 0    50   Input ~ 0
 A7
-Text GLabel 5400 2600 0    50   Input ~ 0
-A7
-Text GLabel 2675 5950 1    50   Input ~ 0
-A14
-Text GLabel 5400 2700 0    50   Input ~ 0
+Text GLabel 4825 2525 0    50   Input ~ 0
 A6
-Text GLabel 1875 5950 1    50   Input ~ 0
-A6
-Text GLabel 5400 1800 0    50   Input ~ 0
+Text GLabel 4825 1625 0    50   Input ~ 0
 A15
-Text GLabel 2775 5950 1    50   Input ~ 0
-A15
-Text GLabel 6700 1200 2    50   Input ~ 0
+Text GLabel 6125 1025 2    50   Input ~ 0
 WE_AUDIO
-Text GLabel 975  5950 1    50   Input ~ 0
-\WR
-Text GLabel 1075 5125 3    50   Input ~ 0
-\RST
-Text GLabel 1075 5950 1    50   Input ~ 0
+Text GLabel 6125 1125 2    50   Input ~ 0
 \RD
-Text GLabel 6700 1300 2    50   Input ~ 0
-\RD
-Text GLabel 2875 5950 1    50   Input ~ 0
+Text GLabel 6125 2325 2    50   Input ~ 0
 D0
-Text GLabel 6700 2500 2    50   Input ~ 0
-D0
-Text GLabel 2975 5950 1    50   Input ~ 0
+Text GLabel 6125 2225 2    50   Input ~ 0
 D1
-Text GLabel 6700 2400 2    50   Input ~ 0
-D1
-Text GLabel 3075 5950 1    50   Input ~ 0
+Text GLabel 6125 2125 2    50   Input ~ 0
 D2
-Text GLabel 6700 2300 2    50   Input ~ 0
-D2
-Text GLabel 3175 5950 1    50   Input ~ 0
+Text GLabel 6125 2025 2    50   Input ~ 0
 D3
-Text GLabel 6700 2200 2    50   Input ~ 0
-D3
-Text GLabel 3275 5950 1    50   Input ~ 0
+Text GLabel 6125 1625 2    50   Input ~ 0
 D4
-Text GLabel 6700 1800 2    50   Input ~ 0
-D4
-Text GLabel 3375 5950 1    50   Input ~ 0
+Text GLabel 6125 1525 2    50   Input ~ 0
 D5
-Text GLabel 6700 1700 2    50   Input ~ 0
-D5
-Text GLabel 3475 5950 1    50   Input ~ 0
+Text GLabel 6125 1425 2    50   Input ~ 0
 D6
-Text GLabel 6700 1600 2    50   Input ~ 0
-D6
-Text GLabel 3575 5950 1    50   Input ~ 0
+Text GLabel 6125 1325 2    50   Input ~ 0
 D7
-Text GLabel 6700 1500 2    50   Input ~ 0
-D7
-Text GLabel 2575 5950 1    50   Input ~ 0
+Text GLabel 4825 1425 0    50   Input ~ 0
 A13
-Text GLabel 5400 1600 0    50   Input ~ 0
-A13
-Text GLabel 5400 1500 0    50   Input ~ 0
+Text GLabel 4825 1325 0    50   Input ~ 0
 RA14
-Text GLabel 5400 1200 0    50   Input ~ 0
+Text GLabel 4825 1025 0    50   Input ~ 0
 RA17
-Text GLabel 5400 1100 0    50   Input ~ 0
+Text GLabel 4825 925  0    50   Input ~ 0
 RA18
-Text GLabel 6700 1000 2    50   Input ~ 0
+Text GLabel 6125 825  2    50   Input ~ 0
 RA20
-Text GLabel 1800 3150 3    50   Input ~ 0
+Text GLabel 1825 3125 3    50   Input ~ 0
 XIN
-Text GLabel 1025 3575 2    50   Input ~ 0
+Text GLabel 1050 3550 2    50   Input ~ 0
 XOUT
-Text GLabel 6700 1100 2    50   Input ~ 0
+Text GLabel 6125 925  2    50   Input ~ 0
 RA21
-Text GLabel 1075 4325 1    50   Input ~ 0
-PWR
-Text GLabel 875  5950 1    50   Input ~ 0
-CLK
-Text GLabel 5400 1000 0    50   Input ~ 0
+Text GLabel 4825 825  0    50   Input ~ 0
 RA19
-Text GLabel 5400 1300 0    50   Input ~ 0
+Text GLabel 4825 1125 0    50   Input ~ 0
 RA16
-Text GLabel 5400 1400 0    50   Input ~ 0
+Text GLabel 4825 1225 0    50   Input ~ 0
 RA15
-Text GLabel 775  5950 1    50   Input ~ 0
+Text GLabel 1900 1475 3    50   Input ~ 0
 VCC
-Text GLabel 1625 1425 3    50   Input ~ 0
+Text GLabel 4825 1725 0    50   Input ~ 0
 VCC
-Text GLabel 4375 3025 0    50   Input ~ 0
+Text GLabel 6500 2000 3    50   Input ~ 0
 VCC
-Text GLabel 875  4325 1    50   Input ~ 0
+Text GLabel 6125 1725 2    50   Input ~ 0
 VCC
-Text GLabel 5400 1900 0    50   Input ~ 0
-VCC
-Text GLabel 4800 2250 2    50   Input ~ 0
-VCC
-Text GLabel 6700 1900 2    50   Input ~ 0
-VCC
-Wire Wire Line
-	6700 2000 6700 2050
 $Comp
 L power:GND #PWR0107
 U 1 1 5DEA381F
-P 4675 900
-F 0 "#PWR0107" H 4675 650 50  0001 C CNN
-F 1 "GND" H 4680 727 50  0000 C CNN
-F 2 "" H 4675 900 50  0001 C CNN
-F 3 "" H 4675 900 50  0001 C CNN
-	1    4675 900 
-	0    -1   -1   0   
+P 4400 1675
+F 0 "#PWR0107" H 4400 1425 50  0001 C CNN
+F 1 "GND" H 4405 1502 50  0000 C CNN
+F 2 "" H 4400 1675 50  0001 C CNN
+F 3 "" H 4400 1675 50  0001 C CNN
+	1    4400 1675
+	-1   0    0    1   
 $EndComp
-Connection ~ 6700 2050
+Connection ~ 6125 1875
 Wire Wire Line
-	6700 2050 6700 2100
+	6125 1875 6125 1925
 $Comp
 L power:GND #PWR0108
 U 1 1 5DEAECB5
-P 1625 1125
-F 0 "#PWR0108" H 1625 875 50  0001 C CNN
-F 1 "GND" V 1630 997 50  0000 R CNN
-F 2 "" H 1625 1125 50  0001 C CNN
-F 3 "" H 1625 1125 50  0001 C CNN
-	1    1625 1125
+P 1900 1175
+F 0 "#PWR0108" H 1900 925 50  0001 C CNN
+F 1 "GND" V 1905 1047 50  0000 R CNN
+F 2 "" H 1900 1175 50  0001 C CNN
+F 3 "" H 1900 1175 50  0001 C CNN
+	1    1900 1175
 	-1   0    0    1   
 $EndComp
-Text GLabel 1175 5950 1    50   Input ~ 0
-CS
-Text GLabel 975  5125 3    50   Input ~ 0
+Text GLabel 4825 1925 0    50   Input ~ 0
 RESET
-Text GLabel 5400 2100 0    50   Input ~ 0
-RESET
-Text GLabel 3675 5950 1    50   Input ~ 0
-RESET
-Text GLabel 1275 5950 1    50   Input ~ 0
+Text GLabel 6125 2425 2    50   Input ~ 0
 A0
-Text GLabel 6700 2600 2    50   Input ~ 0
-A0
-Text GLabel 1375 5950 1    50   Input ~ 0
+Text GLabel 6125 2525 2    50   Input ~ 0
 A1
-Text GLabel 6700 2700 2    50   Input ~ 0
-A1
-Text GLabel 1475 5950 1    50   Input ~ 0
+Text GLabel 6125 2625 2    50   Input ~ 0
 A2
-Text GLabel 6700 2800 2    50   Input ~ 0
-A2
-Text GLabel 1575 5950 1    50   Input ~ 0
+Text GLabel 6125 2725 2    50   Input ~ 0
 A3
-Text GLabel 6700 2900 2    50   Input ~ 0
-A3
-Text GLabel 1675 5950 1    50   Input ~ 0
+Text GLabel 4825 2725 0    50   Input ~ 0
 A4
-Text GLabel 5400 2900 0    50   Input ~ 0
-A4
-Text GLabel 1775 5950 1    50   Input ~ 0
+Text GLabel 4825 2625 0    50   Input ~ 0
 A5
-Text GLabel 5400 2800 0    50   Input ~ 0
-A5
-Text GLabel 2075 5950 1    50   Input ~ 0
+Text GLabel 4825 2325 0    50   Input ~ 0
 A8
-Text GLabel 5400 2500 0    50   Input ~ 0
-A8
-Text GLabel 2175 5950 1    50   Input ~ 0
+Text GLabel 4825 2225 0    50   Input ~ 0
 A9
-Text GLabel 5400 2400 0    50   Input ~ 0
-A9
-Text GLabel 2275 5950 1    50   Input ~ 0
+Text GLabel 4825 2125 0    50   Input ~ 0
 A10
-Text GLabel 5400 2300 0    50   Input ~ 0
-A10
-Text GLabel 2375 5950 1    50   Input ~ 0
+Text GLabel 4825 2025 0    50   Input ~ 0
 A11
-Text GLabel 5400 2200 0    50   Input ~ 0
-A11
-Text GLabel 4775 2875 2    50   Input ~ 0
-#CE
-$Comp
-L power:GND #PWR0109
-U 1 1 5DF37A92
-P 3875 5950
-F 0 "#PWR0109" H 3875 5700 50  0001 C CNN
-F 1 "GND" V 3880 5777 50  0000 C CNN
-F 2 "" H 3875 5950 50  0001 C CNN
-F 3 "" H 3875 5950 50  0001 C CNN
-	1    3875 5950
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5DF38B36
-P 4775 3150
-F 0 "#PWR0110" H 4775 2900 50  0001 C CNN
-F 1 "GND" H 4780 2977 50  0000 C CNN
-F 2 "" H 4775 3150 50  0001 C CNN
-F 3 "" H 4775 3150 50  0001 C CNN
-	1    4775 3150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5DF39B18
-P 4500 2250
-F 0 "#PWR0111" H 4500 2000 50  0001 C CNN
-F 1 "GND" H 4505 2077 50  0000 C CNN
-F 2 "" H 4500 2250 50  0001 C CNN
-F 3 "" H 4500 2250 50  0001 C CNN
-	1    4500 2250
-	0    1    1    0   
+P 6500 1700
+F 0 "#PWR0111" H 6500 1450 50  0001 C CNN
+F 1 "GND" H 6505 1527 50  0000 C CNN
+F 2 "" H 6500 1700 50  0001 C CNN
+F 3 "" H 6500 1700 50  0001 C CNN
+	1    6500 1700
+	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	500  500  500  2250
+	775  550  775  2300
 Wire Notes Line
-	500  2250 1750 2250
+	775  2300 2025 2300
 Wire Notes Line
-	1750 2250 1750 500 
+	2025 2300 2025 550 
 Wire Notes Line
-	1750 500  500  500 
+	2025 550  775  550 
 Wire Notes Line
-	500  2375 2000 2375
+	525  2350 2025 2350
 Wire Notes Line
-	2000 2375 2000 3750
+	2025 2350 2025 3725
 Wire Notes Line
-	2000 3750 500  3750
+	2025 3725 525  3725
 Wire Notes Line
-	500  3750 500  2375
-Wire Notes Line
-	500  4000 500  5500
-Wire Notes Line
-	500  5500 2000 5500
-Wire Notes Line
-	2000 5500 2000 4000
-Wire Notes Line
-	2000 4000 500  4000
-Text Notes 1725 2225 2    50   ~ 10
+	525  3725 525  2350
+Text Notes 2000 2275 2    50   ~ 10
 Logic Gate Circuit
-Text Notes 1975 3725 2    50   ~ 10
+Text Notes 2000 3700 2    50   ~ 10
 Clock Circuit
-Text Notes 1975 5475 2    50   ~ 10
-Battery Backup Circuit
-$Comp
-L custom:MBM29F033C U4
-U 1 1 5D1B622C
-P 6000 700
-F 0 "U4" H 6050 825 50  0000 C CNN
-F 1 "AM29F032/MBM29F033C" H 6050 734 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 6050 400 50  0001 C CNN
-F 3 "" H 6050 400 50  0001 C CNN
-	1    6000 700 
-	1    0    0    -1  
-$EndComp
-Text GLabel 2400 2425 0    50   Input ~ 0
+Text GLabel 2300 2400 0    50   Input ~ 0
 D0
-Text GLabel 2400 2275 0    50   Input ~ 0
+Text GLabel 2300 2250 0    50   Input ~ 0
 D1
-Text GLabel 2400 2125 0    50   Input ~ 0
+Text GLabel 2300 2100 0    50   Input ~ 0
 D2
-Text GLabel 2400 1975 0    50   Input ~ 0
+Text GLabel 2300 1950 0    50   Input ~ 0
 D3
-Text GLabel 2400 1825 0    50   Input ~ 0
+Text GLabel 2300 1800 0    50   Input ~ 0
 D4
-Text GLabel 2400 1675 0    50   Input ~ 0
+Text GLabel 2300 1650 0    50   Input ~ 0
 D5
-Text GLabel 2400 1525 0    50   Input ~ 0
+Text GLabel 2300 1500 0    50   Input ~ 0
 D6
-Text GLabel 2400 1375 0    50   Input ~ 0
+Text GLabel 2300 1350 0    50   Input ~ 0
 D7
-Text GLabel 2750 2625 3    50   Input ~ 0
+Text GLabel 2650 2600 3    50   Input ~ 0
 AA13
-Text GLabel 2900 2625 3    50   Input ~ 0
+Text GLabel 2800 2600 3    50   Input ~ 0
 AA14
-Text GLabel 3350 1175 1    50   Input ~ 0
+Text GLabel 3250 1150 1    50   Input ~ 0
 A15
-Text GLabel 3050 2625 3    50   Input ~ 0
+Text GLabel 2925 2650 3    50   Input ~ 0
 \RAMCS
-Text GLabel 3350 2625 3    50   Input ~ 0
+Text GLabel 3250 2600 3    50   Input ~ 0
 RA14
-Text GLabel 3500 2625 3    50   Input ~ 0
+Text GLabel 3400 2600 3    50   Input ~ 0
 RA15
-Text GLabel 3650 2625 3    50   Input ~ 0
+Text GLabel 3550 2600 3    50   Input ~ 0
 RA16
-Text GLabel 3850 2425 2    50   Input ~ 0
+Text GLabel 3750 2400 2    50   Input ~ 0
 RA17
-Text GLabel 3850 2275 2    50   Input ~ 0
+Text GLabel 3750 2250 2    50   Input ~ 0
 RA18
-Text GLabel 3850 2125 2    50   Input ~ 0
+Text GLabel 3750 2100 2    50   Input ~ 0
 RA19
-Text GLabel 3850 1975 2    50   Input ~ 0
+Text GLabel 3750 1950 2    50   Input ~ 0
 RA20
-Text GLabel 3850 1825 2    50   Input ~ 0
+Text GLabel 3750 1800 2    50   Input ~ 0
 RA21
-Text GLabel 3850 1525 2    50   Input ~ 0
+Text GLabel 3750 1500 2    50   Input ~ 0
 \WR
-Text GLabel 3850 1375 2    50   Input ~ 0
+Text GLabel 3750 1350 2    50   Input ~ 0
 XIN
-Text GLabel 3650 1175 1    50   Input ~ 0
+Text GLabel 3550 1150 1    50   Input ~ 0
 XOUT
-Text GLabel 3500 1175 1    50   Input ~ 0
+Text GLabel 3400 1150 1    50   Input ~ 0
 \RD
-Text GLabel 3200 1175 1    50   Input ~ 0
+Text GLabel 3100 1150 1    50   Input ~ 0
 A14
 $Comp
 L Device:C C6
 U 1 1 5D8EF29E
-P 2675 800
-F 0 "C6" V 2800 800 50  0000 C CNN
-F 1 "0.1 uF" V 2550 800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2713 650 50  0001 C CNN
-F 3 "~" H 2675 800 50  0001 C CNN
-	1    2675 800 
+P 2725 750
+F 0 "C6" V 2575 750 50  0000 C CNN
+F 1 "0.1 uF" V 2850 750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2763 600 50  0001 C CNN
+F 3 "~" H 2725 750 50  0001 C CNN
+	1    2725 750 
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2600 1175 1    50   Input ~ 0
+Text GLabel 2500 1150 1    50   Input ~ 0
 PWR
-Text GLabel 2525 800  0    50   Input ~ 0
+Text GLabel 2575 750  0    50   Input ~ 0
 PWR
 $Comp
 L power:GND #PWR0101
 U 1 1 5D8F07DC
-P 2825 800
-F 0 "#PWR0101" H 2825 550 50  0001 C CNN
-F 1 "GND" V 2830 672 50  0000 R CNN
-F 2 "" H 2825 800 50  0001 C CNN
-F 3 "" H 2825 800 50  0001 C CNN
-	1    2825 800 
+P 2875 750
+F 0 "#PWR0101" H 2875 500 50  0001 C CNN
+F 1 "GND" V 2880 622 50  0000 R CNN
+F 2 "" H 2875 750 50  0001 C CNN
+F 3 "" H 2875 750 50  0001 C CNN
+	1    2875 750 
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3050 1175 1    50   Input ~ 0
+Text GLabel 2950 1150 1    50   Input ~ 0
 A13
-Text GLabel 3850 1675 2    50   Input ~ 0
+Text GLabel 3750 1650 2    50   Input ~ 0
 \RST
-Text GLabel 2600 2625 3    50   Input ~ 0
+Text GLabel 2500 2600 3    50   Input ~ 0
 CLK
-Text GLabel 4375 900  0    50   Input ~ 0
+Text GLabel 4400 1975 3    50   Input ~ 0
 VCC
-$Comp
-L Gameboy:CartBus U0
-U 1 1 5BCBB1ED
-P 1375 6050
-F 0 "U0" H 2325 5678 50  0000 C CNN
-F 1 "CartBus" H 2325 5587 50  0000 C CNN
-F 2 "Custom:GBBus" H 1375 6050 50  0001 C CNN
-F 3 "" H 1375 6050 50  0001 C CNN
-	1    1375 6050
-	1    0    0    -1  
-$EndComp
-Text GLabel 3775 5950 1    50   Input ~ 0
-WE_AUDIO
 $Comp
 L Gameboy:MBC30 U1
 U 1 1 5D8E4C35
-P 2250 1425
-F 0 "U1" V 1775 550 50  0000 R CNN
-F 1 "MBC30" V 1575 575 50  0000 R CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" V 2400 1175 50  0001 C CNN
-F 3 "" V 2400 1175 50  0001 C CNN
-	1    2250 1425
+P 2150 1400
+F 0 "U1" V 1525 450 50  0000 R CNN
+F 1 "MBC30" V 1425 525 50  0000 R CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" V 2300 1150 50  0001 C CNN
+F 3 "" V 2300 1150 50  0001 C CNN
+	1    2150 1400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5DD73A09
-P 975 4325
-F 0 "#PWR0112" H 975 4075 50  0001 C CNN
-F 1 "GND" V 975 4125 50  0000 C CNN
-F 2 "" H 975 4325 50  0001 C CNN
-F 3 "" H 975 4325 50  0001 C CNN
-	1    975  4325
-	-1   0    0    1   
-$EndComp
-Text GLabel 2650 3475 0    50   Input ~ 0
+Text GLabel 2375 3250 0    50   Input ~ 0
 AA14
-Text GLabel 2650 3625 0    50   Input ~ 0
+Text GLabel 2375 3400 0    50   Input ~ 0
 A12
-Text GLabel 2650 3775 0    50   Input ~ 0
+Text GLabel 2375 3550 0    50   Input ~ 0
 A7
-Text GLabel 2650 3925 0    50   Input ~ 0
+Text GLabel 2375 3700 0    50   Input ~ 0
 A6
-Text GLabel 2650 4075 0    50   Input ~ 0
+Text GLabel 2375 3850 0    50   Input ~ 0
 A5
-Text GLabel 2650 4225 0    50   Input ~ 0
+Text GLabel 2375 4000 0    50   Input ~ 0
 A4
-Text GLabel 2650 4375 0    50   Input ~ 0
+Text GLabel 2375 4150 0    50   Input ~ 0
 A3
-Text GLabel 2650 4525 0    50   Input ~ 0
+Text GLabel 2375 4300 0    50   Input ~ 0
 A2
-Text GLabel 2650 4675 0    50   Input ~ 0
+Text GLabel 2375 4450 0    50   Input ~ 0
 A1
-Text GLabel 2650 4825 0    50   Input ~ 0
+Text GLabel 2375 4600 0    50   Input ~ 0
 A0
-Text GLabel 3450 3475 2    50   Input ~ 0
+Text GLabel 3175 3250 2    50   Input ~ 0
 VCC
-Text GLabel 2650 4975 0    50   Input ~ 0
+Text GLabel 2375 4750 0    50   Input ~ 0
 D0
-Text GLabel 2650 5125 0    50   Input ~ 0
+Text GLabel 2375 4900 0    50   Input ~ 0
 D1
-Text GLabel 2650 5275 0    50   Input ~ 0
+Text GLabel 2375 5050 0    50   Input ~ 0
 D2
-Text GLabel 3450 5425 2    50   Input ~ 0
+Text GLabel 3175 5200 2    50   Input ~ 0
 D3
-Text GLabel 3450 5275 2    50   Input ~ 0
+Text GLabel 3175 5050 2    50   Input ~ 0
 D4
-Text GLabel 3450 5125 2    50   Input ~ 0
-D5
-Text GLabel 3450 4975 2    50   Input ~ 0
-D6
-Text GLabel 3450 4825 2    50   Input ~ 0
-D7
-Text GLabel 3450 4675 2    50   Input ~ 0
-#CE
-Text GLabel 3450 4525 2    50   Input ~ 0
-A10
-Text GLabel 3450 4375 2    50   Input ~ 0
-\RD
-Text GLabel 3450 4225 2    50   Input ~ 0
-A11
-Text GLabel 3450 4075 2    50   Input ~ 0
-A9
-Text GLabel 3450 3925 2    50   Input ~ 0
+Text GLabel 3175 3700 2    50   Input ~ 0
 A8
-Text GLabel 3450 3775 2    50   Input ~ 0
+Text GLabel 3175 3550 2    50   Input ~ 0
 AA13
-Text GLabel 3450 3625 2    50   Input ~ 0
+Text GLabel 3175 3400 2    50   Input ~ 0
 \WR
 $Comp
 L Gameboy:74LVC1G332GW,125 U3
 U 1 1 5E9A6863
-P 800 1425
-F 0 "U3" H 850 1475 50  0000 R CNN
-F 1 "74LVC1G332GW,125" H 1150 950 50  0000 R CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 500 1425 50  0001 C CNN
-F 3 "" H 500 1425 50  0001 C CNN
-	1    800  1425
+P 1075 1475
+F 0 "U3" H 1125 1525 50  0000 R CNN
+F 1 "74LVC1G332GW,125" H 1425 1000 50  0000 R CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 775 1475 50  0001 C CNN
+F 3 "" H 775 1475 50  0001 C CNN
+	1    1075 1475
 	0    -1   -1   0   
 $EndComp
-Text GLabel 850  1825 3    50   Input ~ 0
+Text GLabel 1125 1875 3    50   Input ~ 0
 #CE
-Text GLabel 1000 1825 3    50   Input ~ 0
+Text GLabel 1275 1875 3    50   Input ~ 0
 VCC
-Text GLabel 1150 1025 1    50   Input ~ 0
+Text GLabel 1425 1075 1    50   Input ~ 0
 \RAMCS
 $Comp
 L power:GND #PWR0103
 U 1 1 5E9AC06D
-P 1000 1025
-F 0 "#PWR0103" H 1000 775 50  0001 C CNN
-F 1 "GND" V 1005 897 50  0000 R CNN
-F 2 "" H 1000 1025 50  0001 C CNN
-F 3 "" H 1000 1025 50  0001 C CNN
-	1    1000 1025
+P 1275 1075
+F 0 "#PWR0103" H 1275 825 50  0001 C CNN
+F 1 "GND" V 1280 947 50  0000 R CNN
+F 2 "" H 1275 1075 50  0001 C CNN
+F 3 "" H 1275 1075 50  0001 C CNN
+	1    1275 1075
 	-1   0    0    1   
 $EndComp
-Text GLabel 850  1025 1    50   Input ~ 0
+Text GLabel 1125 1075 1    50   Input ~ 0
 CLK
-Text GLabel 1150 1825 3    50   Input ~ 0
+Text GLabel 1425 1875 3    50   Input ~ 0
 CS
-NoConn ~ 3200 2625
-Connection ~ 2825 800 
+NoConn ~ 3100 2600
+$Comp
+L Gameboy:AM29F032 U4
+U 1 1 5EDBE71F
+P 5475 575
+F 0 "U4" H 5475 425 50  0000 C CNN
+F 1 "AM29F032/MBM29F033C" H 5475 -1700 50  0000 C CNN
+F 2 "Custom:AM29F032-MBM29F033C" H 5475 475 50  0001 C CNN
+F 3 "" H 5375 625 50  0001 C CNN
+	1    5475 575 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2750 1175 2825 1175
+	6125 1825 6125 1875
+$Comp
+L Mechanical:MountingHole Art1
+U 1 1 5EDCB2F8
+P 4275 4250
+F 0 "Art1" H 4375 4296 50  0000 L CNN
+F 1 "90,412581|99,90646 | Crystal Clear" H 4375 4205 50  0000 L CNN
+F 2 "Custom:cc4" H 4275 4250 50  0001 C CNN
+F 3 "~" H 4275 4250 50  0001 C CNN
+	1    4275 4250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4100 4100 5850 4100
+Text Notes 5825 4750 2    50   ~ 10
+Symbols used for Art footprints\n
+$Comp
+L Mechanical:MountingHole Art2
+U 1 1 5EDD08E6
+P 4275 4475
+F 0 "Art2" H 4375 4521 50  0000 L CNN
+F 1 "90,412581|99,90646 | Suicune" H 4375 4430 50  0000 L CNN
+F 2 "Custom:Suicune-Back-Silkscreen" H 4275 4475 50  0001 C CNN
+F 3 "~" H 4275 4475 50  0001 C CNN
+	1    4275 4475
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5850 4100 5850 4775
+Wire Notes Line
+	5850 4775 4100 4775
+Wire Notes Line
+	4100 4100 4100 4775
 Wire Wire Line
-	2825 800  2825 1175
-Connection ~ 2825 1175
+	3800 4100 3500 4100
 Wire Wire Line
-	2825 1175 2900 1175
+	3500 4100 3500 4200
+Text GLabel 3175 3850 2    50   Input ~ 0
+A9
+Text GLabel 3175 4000 2    50   Input ~ 0
+A11
+Text GLabel 3175 4150 2    50   Input ~ 0
+\RD
+Text GLabel 3175 4300 2    50   Input ~ 0
+A10
+Text GLabel 3175 4450 2    50   Input ~ 0
+#CE
+Text GLabel 3175 4600 2    50   Input ~ 0
+D7
+Text GLabel 3175 4750 2    50   Input ~ 0
+D6
+Text GLabel 3175 4900 2    50   Input ~ 0
+D5
+$Comp
+L power:GND #PWR0110
+U 1 1 5DF38B36
+P 3500 4500
+F 0 "#PWR0110" H 3500 4250 50  0001 C CNN
+F 1 "GND" H 3505 4327 50  0000 C CNN
+F 2 "" H 3500 4500 50  0001 C CNN
+F 3 "" H 3500 4500 50  0001 C CNN
+	1    3500 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 4500 3    50   Input ~ 0
+#CE
+Text GLabel 3650 4100 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	3800 4100 3800 4200
+$Comp
+L Device:C C7
+U 1 1 5BE91543
+P 3500 4350
+F 0 "C7" V 3300 4350 50  0000 C CNN
+F 1 "0.1 uF" V 3375 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 4200 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BE8189D
+P 3800 4350
+F 0 "R2" V 3650 4350 50  0000 C CNN
+F 1 "10K" V 3800 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 4350 50  0001 C CNN
+F 3 "~" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	4050 3075 4050 5400
+Wire Notes Line
+	4050 5400 2075 5400
+Wire Notes Line
+	2075 5400 2075 3075
+Text Notes 3525 5375 0    50   ~ 10
+FRAM Circuit
+Wire Wire Line
+	2650 1150 2725 1150
+$Comp
+L power:GND #PWR0113
+U 1 1 5EE06C1D
+P 2725 1125
+F 0 "#PWR0113" H 2725 875 50  0001 C CNN
+F 1 "GND" H 2800 975 50  0000 R CNN
+F 2 "" H 2725 1125 50  0001 C CNN
+F 3 "" H 2725 1125 50  0001 C CNN
+	1    2725 1125
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2075 550  2075 3025
+Text Notes 3525 3000 0    50   ~ 10
+MBC Circuit
+Wire Notes Line
+	2025 3775 675  3775
+Wire Notes Line
+	675  3775 675  5275
+Wire Wire Line
+	1225 4950 1275 4950
+Wire Wire Line
+	1225 4900 1225 4950
+Wire Wire Line
+	1625 4950 1625 4900
+$Comp
+L power:GND #PWR0114
+U 1 1 5EDDECB0
+P 925 4900
+F 0 "#PWR0114" H 925 4650 50  0001 C CNN
+F 1 "GND" V 925 4700 50  0000 C CNN
+F 2 "" H 925 4900 50  0001 C CNN
+F 3 "" H 925 4900 50  0001 C CNN
+	1    925  4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 4950 1625 4950
+Text Notes 2000 5250 2    50   ~ 10
+Battery Backup Circuit
+$Comp
+L power:GND #PWR0112
+U 1 1 5DD73A09
+P 1025 4100
+F 0 "#PWR0112" H 1025 3850 50  0001 C CNN
+F 1 "GND" V 1025 3900 50  0000 C CNN
+F 2 "" H 1025 4100 50  0001 C CNN
+F 3 "" H 1025 4100 50  0001 C CNN
+	1    1025 4100
+	-1   0    0    1   
+$EndComp
+Text GLabel 1025 4900 3    50   Input ~ 0
+RESET
+Text GLabel 925  4100 1    50   Input ~ 0
+VCC
+Text GLabel 1125 4100 1    50   Input ~ 0
+PWR
+Text GLabel 1125 4900 3    50   Input ~ 0
+\RST
+NoConn ~ 1225 4100
+$Comp
+L Device:R R3
+U 1 1 5BF73377
+P 1425 4950
+F 0 "R3" V 1275 4950 50  0000 C CNN
+F 1 "1K" V 1425 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1355 4950 50  0001 C CNN
+F 3 "~" H 1425 4950 50  0001 C CNN
+	1    1425 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5BF29C9C
+P 1625 4600
+F 0 "#PWR0106" H 1625 4350 50  0001 C CNN
+F 1 "GND" H 1630 4427 50  0000 C CNN
+F 2 "" H 1625 4600 50  0001 C CNN
+F 3 "" H 1625 4600 50  0001 C CNN
+	1    1625 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Battery_Cell B1
+U 1 1 5BF06F96
+P 1625 4700
+F 0 "B1" V 1775 4750 50  0000 C CNN
+F 1 "Battery_Cell" V 1461 4750 50  0001 C CNN
+F 2 "Custom:BK-6219-TR" V 1625 4760 50  0001 C CNN
+F 3 "~" V 1625 4760 50  0001 C CNN
+	1    1625 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Gameboy:BA6129AF U2
+U 1 1 5BCB659F
+P 1025 4500
+F 0 "U2" H 1075 4700 50  0000 R CNN
+F 1 "BA6129AF" H 1200 4200 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1025 4500 50  0001 C CNN
+F 3 "" H 1025 4500 50  0001 C CNN
+	1    1025 4500
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	4100 550  4100 2950
+Wire Notes Line
+	4100 2950 6775 2950
+Wire Notes Line
+	6775 2950 6775 550 
+Wire Notes Line
+	2075 3075 4050 3075
+Text GLabel 7275 3450 1    50   Input ~ 0
+WE_AUDIO
+$Comp
+L Gameboy:CartBus U0
+U 1 1 5BCBB1ED
+P 4875 3550
+F 0 "U0" H 5850 3200 50  0000 C CNN
+F 1 "CartBus" H 5850 3125 50  0000 C CNN
+F 2 "Connector_GameBoy:GameBoy_GamePak_CGB-002_P1.50mm_Edge" H 4875 3550 50  0001 C CNN
+F 3 "" H 4875 3550 50  0001 C CNN
+	1    4875 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5DF37A92
+P 7375 3450
+F 0 "#PWR0109" H 7375 3200 50  0001 C CNN
+F 1 "GND" V 7375 3250 50  0000 C CNN
+F 2 "" H 7375 3450 50  0001 C CNN
+F 3 "" H 7375 3450 50  0001 C CNN
+	1    7375 3450
+	-1   0    0    1   
+$EndComp
+Text GLabel 5875 3450 1    50   Input ~ 0
+A11
+Text GLabel 5775 3450 1    50   Input ~ 0
+A10
+Text GLabel 5675 3450 1    50   Input ~ 0
+A9
+Text GLabel 5575 3450 1    50   Input ~ 0
+A8
+Text GLabel 5275 3450 1    50   Input ~ 0
+A5
+Text GLabel 5175 3450 1    50   Input ~ 0
+A4
+Text GLabel 5075 3450 1    50   Input ~ 0
+A3
+Text GLabel 4975 3450 1    50   Input ~ 0
+A2
+Text GLabel 4875 3450 1    50   Input ~ 0
+A1
+Text GLabel 4775 3450 1    50   Input ~ 0
+A0
+Text GLabel 7175 3450 1    50   Input ~ 0
+RESET
+Text GLabel 4675 3450 1    50   Input ~ 0
+CS
+Text GLabel 4275 3450 1    50   Input ~ 0
+VCC
+Text GLabel 4375 3450 1    50   Input ~ 0
+CLK
+Text GLabel 6075 3450 1    50   Input ~ 0
+A13
+Text GLabel 7075 3450 1    50   Input ~ 0
+D7
+Text GLabel 6975 3450 1    50   Input ~ 0
+D6
+Text GLabel 6875 3450 1    50   Input ~ 0
+D5
+Text GLabel 6775 3450 1    50   Input ~ 0
+D4
+Text GLabel 6675 3450 1    50   Input ~ 0
+D3
+Text GLabel 6575 3450 1    50   Input ~ 0
+D2
+Text GLabel 6475 3450 1    50   Input ~ 0
+D1
+Text GLabel 6375 3450 1    50   Input ~ 0
+D0
+Text GLabel 4575 3450 1    50   Input ~ 0
+\RD
+Text GLabel 4475 3450 1    50   Input ~ 0
+\WR
+Text GLabel 6275 3450 1    50   Input ~ 0
+A15
+Text GLabel 5375 3450 1    50   Input ~ 0
+A6
+Text GLabel 6175 3450 1    50   Input ~ 0
+A14
+Text GLabel 5475 3450 1    50   Input ~ 0
+A7
+Text GLabel 5975 3450 1    50   Input ~ 0
+A12
+Wire Notes Line
+	7550 4050 4100 4050
+Wire Notes Line
+	4100 4050 4100 3000
+Wire Notes Line
+	4100 3000 7550 3000
+Wire Notes Line
+	7550 3000 7550 4050
+Text Notes 6300 2925 0    50   ~ 10
+ROM Circuit
+Text Notes 6925 4025 0    50   ~ 10
+CartBus Circuit
+Wire Notes Line
+	4050 3025 4050 550 
+Wire Notes Line
+	4050 550  2075 550 
+Wire Notes Line
+	4050 3025 2075 3025
+Wire Notes Line
+	2025 3775 2025 5275
+Wire Notes Line
+	675  5275 2025 5275
+Wire Wire Line
+	2725 1150 2725 1125
+Connection ~ 2725 1150
+Wire Wire Line
+	2725 1150 2800 1150
+Wire Notes Line
+	6775 550  4100 550 
 $EndSCHEMATC
