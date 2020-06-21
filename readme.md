@@ -4,9 +4,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 **OSHPark:** 
 
-[Regular Version](https://oshpark.com/shared_projects/GsgrxKQN)
+[Regular Version](https://oshpark.com/shared_projects/Q68gHfPF)
 
-[Crystal Clear Version](https://oshpark.com/shared_projects/X5o7yAGj)
+[Crystal Clear Version](https://oshpark.com/shared_projects/xrvXfJfc)
 
 Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
