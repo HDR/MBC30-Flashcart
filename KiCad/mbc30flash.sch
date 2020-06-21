@@ -318,7 +318,7 @@ Text GLabel 2800 2600 3    50   Input ~ 0
 AA14
 Text GLabel 3250 1150 1    50   Input ~ 0
 A15
-Text GLabel 2925 2650 3    50   Input ~ 0
+Text GLabel 2950 2600 3    50   Input ~ 0
 \RAMCS
 Text GLabel 3250 2600 3    50   Input ~ 0
 RA14

@@ -99,6 +99,10 @@ Note: Capacitors and Resistor part numbers are suggestions, you can use other co
 
 - Removed JLCJLCJLC marking for OSHPark project.
 
+**1.4.1:**
+
+- Fixed missing trace for Ram_CS
+
 ## Videos
 
 
