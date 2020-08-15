@@ -48,7 +48,7 @@ Castellated Holes: No
 | MBC30 | MBC30 | Get from real cartridge |
 | U1 | BA6129AF | Buy or get from real cartridge |
 | U2 | 74LVC1G332GV,125 | 3-input OR gate TSOP-6 |
-| ROM | AM29F016 (2MB), AM29F032 (4MB) or MBM29F033C (4MB) | 2MB or 4MB Rom Chip TSOP-48 or TSOP-40 |
+| ROM | AM29F032 (4MB) or MBM29F033C (4MB) | 4MB Rom Chip TSOP-40 |
 | X1 | R26-32.768-12.5-10PPM | R26 12.5pF 32.768 kHz Crystal |
 
 Note: Capacitors and Resistor part numbers are suggestions, you can use other components with matching specs
