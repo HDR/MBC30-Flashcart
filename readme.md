@@ -53,6 +53,8 @@ Castellated Holes: No
 
 Note: Capacitors and Resistor part numbers are suggestions, you can use other components with matching specs
 
+On 1.4.1 boards the flash should be soldered the other way around, as the indicator is wrong
+
 ## Images
 
 ![Front](front.png)
