@@ -4,9 +4,9 @@ MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and h
 
 **OSHPark:** 
 
-[Regular Version](https://oshpark.com/shared_projects/Q68gHfPF)
+[Regular Version](https://oshpark.com/shared_projects/xqcPwiVB)
 
-[Crystal Clear Version](https://oshpark.com/shared_projects/xrvXfJfc)
+[Crystal Clear Version](https://oshpark.com/shared_projects/qh5Q5MuF)
 
 Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
@@ -104,6 +104,10 @@ On 1.4.1 boards the flash should be soldered the other way around, as the indica
 **1.4.1:**
 
 - Fixed missing trace for Ram_CS
+
+**1.4.2:**
+
+- Fixed a symbol kicad "rescued" causing the pinout to be backwards (this put the chip direction indicator in the wrong corner)
 
 ## Videos
 
