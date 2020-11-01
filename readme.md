@@ -121,3 +121,8 @@ On 1.4.1 boards the flash should be soldered the other way around, as the indica
 
 
 [![text](https://img.youtube.com/vi/DfoEXSLMXps/0.jpg)](https://www.youtube.com/watch?v=DfoEXSLMXps)
+
+
+**AndehX Building Revision 1.4.1**
+
+[![text](https://img.youtube.com/vi/C_L1obcNi5A/0.jpg)](https://www.youtube.com/watch?v=C_L1obcNi5A)
