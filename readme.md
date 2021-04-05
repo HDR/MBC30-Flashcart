@@ -1,3 +1,5 @@
+## Please make sure you read the license, if you see anyone selling these, please send me a message.
+
 MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and has added support for 4MB roms
 
 ## Ordering
