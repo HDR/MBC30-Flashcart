@@ -32,9 +32,9 @@ Castellated Holes: No
 
 **PCBWay:**
 
-[Regular Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Suicune_Edition.html)
+[Regular Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Suicune_Edition_1.html)
 
-[Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition.html)
+[Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition_1.html)
 
 ## BOM
 
