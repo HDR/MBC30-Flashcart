@@ -1,3 +1,5 @@
+## Make sure you read the license, if you see anyone selling these, please send me a message.
+
 MBC30 Flashcart based on retroreboot's cartridge that uses 0603 components and has added support for 4MB roms
 
 ## Ordering
@@ -30,9 +32,9 @@ Castellated Holes: No
 
 **PCBWay:**
 
-[Regular Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Suicune_Edition.html)
+[Regular Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Suicune_Edition_1.html)
 
-[Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition.html)
+[Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition_1.html)
 
 ## BOM
 
@@ -121,3 +123,8 @@ On 1.4.1 boards the flash should be soldered the other way around, as the indica
 
 
 [![text](https://img.youtube.com/vi/DfoEXSLMXps/0.jpg)](https://www.youtube.com/watch?v=DfoEXSLMXps)
+
+
+**AndehX Building Revision 1.4.1**
+
+[![text](https://img.youtube.com/vi/C_L1obcNi5A/0.jpg)](https://www.youtube.com/watch?v=C_L1obcNi5A)
