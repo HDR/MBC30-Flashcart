@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "MBC30-CCEdition-Gerbers"))
+      (outputdirectory "MBC30-Gerbers/"))
   )
 
   (net 0 "")
@@ -3742,7 +3742,7 @@
   (segment (start 105.431 118.8203) (end 109.2678 118.8203) (width 0.2) (layer F.Cu) (net 52))
   (segment (start 109.2678 118.8203) (end 112.1562 121.7087) (width 0.2) (layer F.Cu) (net 52))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F457B41) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F457CC3) (hatch edge 0.508)
     (priority 3)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
@@ -3885,7 +3885,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F457B3E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F457CC0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
