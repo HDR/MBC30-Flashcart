@@ -36,6 +36,8 @@ Castellated Holes: No
 
 [Crystal Clear Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart___4MB___FRAM___RTC___Crystal_Clear_Edition_1.html)
 
+[Coral Version](https://www.pcbway.com/project/shareproject/MBC30_Flashcart_4MB_FRAM_RTC_Coral_Edition_2b0fe0be.html)
+
 ## BOM
 
 | Reference        | Part Number           | Description  |
